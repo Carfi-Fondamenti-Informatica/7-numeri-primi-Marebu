@@ -7,6 +7,7 @@ int main(){
     bool ris= numeriprimi(a,b);
     if(ris){
         cout << "numero primo" << endl;
+    
     }else{
         cout << "numero non primo" << endl;
     }
