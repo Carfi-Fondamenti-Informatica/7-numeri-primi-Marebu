@@ -6,6 +6,7 @@ bool numeriprimi(int n,int d){
          rest=n%d;
          if(rest!=0){
            return numeriprimi(n,d+1);
+         
          }else{
            return false;
          }
